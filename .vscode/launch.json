@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug tsx example",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "tsx",
+      "program": "${workspaceFolder}/example/example.ts",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outputCapture": "std"
+    }
+  ]
+}
