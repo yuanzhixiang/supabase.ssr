@@ -1,0 +1,24 @@
+{
+  "name": "@yuanzhixiang/supabase.ssr",
+  "version": "1.0.1",
+  "description": "Use the Supabase JavaScript library in popular server-side rendering (SSR) frameworks.",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.main.json",
+    "test": "vitest --coverage"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}
