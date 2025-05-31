@@ -6,13 +6,15 @@
   "module": "dist/module/index.js",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.main.json",
-    "test": "vitest --coverage"
+    "test": "vitest --coverage",
+    "start": "tsx example/example.ts"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "tsx": "^4.19.4"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4"
